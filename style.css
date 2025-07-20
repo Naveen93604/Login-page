@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color:black;
+}
+#form{
+    width: 430px;
+    
+    /* margin: 5px 5% 10% 28%; */
+    margin:10px  auto;
+    
+    background-color:cornflowerblue;
+    padding:4% ;
+    height: fit-content;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+     padding-top: 5px;
+    color:purple;
+    font-family:"Cormorant Upright", serif;
+
+}
+.submit{
+    padding: 6px ;
+    width: 100%;
+    padding-bottom: 8px;
+    background-color:red;
+    border-radius: 4px;
+    margin-top: 3%;
+    cursor: pointer;
+    font-size:smaller ;
+    color: aliceblue;
+    border-radius: 7px;
+    border-color:red;
+
+
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    position: relative;
+}
+.group label{
+    font-weight: bold;
+}
+
+.group input{
+    border-radius: 2px;
+    font-size: 15px;
+    margin: 10px;
+    padding:5px;
+    border-color:chartreuse;
+    margin-bottom:10px ;
+}
+@media screen and(max-width=67px){
+      
+}
+.error{
+    position: absolute;
+    top: 65px;
+    font-size:small;
+    padding-left:12px ;
+    color: red;
+    padding-bottom: 0%;
+
+}
+ .group .sucsess input{
+    border-color:blue;
+ }
+ .group .error input{
+    border-color:red;
+
+}
